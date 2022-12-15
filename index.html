@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Resources/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dario's Portofolio</title>
+</head>
+<body class>
+<!--Header Section-->
+<header class="header">
+    <nav>
+      <h1>Dario's Portofolio</h1>
+      <ul  class="nav-bar">
+          <li class="nav-item">
+              <a href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+              <a href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+              <a href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+              <a href="./contact.html">Contact</a>
+          </li>
+      </ul>
+      <button type="button" class="dark-mode" onclick="enableDarkMode()">Dark Mode</button>
+      <button type="button" class="light-mode" onclick="enableLightMode()">Light Mode</button>
+    </nav>
+</header>
+<main class="main">
+  <section class="about-me" id="about-me">
+    <div class="about-me-container">
+      <div class="about-me-text">  
+        <h2>About Me</h2>
+        <p>Hi! I'm Dario Dehaspe, a developer from Belgium. Welcome to my portofolio's page. <br>
+          Below, you will find some of the projects I'm the most proud of with the skills I used to build them. </p>
+        <p>I discovered coding and learn all about it on <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>. I quickly fell in love with it and all
+          the possibilities it opens.</p>
+        <p>In my free time, I give piano classes and do concerts. I like to write music and compose on Ableton. Learning new things has always 
+         been one of my favorite things.
+        </p>
+        <p>Fun fact : I know how to style websites and how to style you!</p>
+      </div>
+      <img src="./Resources/Images/computer-keyboard.jpg" alt="computer keyboard" class="keyboard">
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+    <details class="project">
+        <summary class="title">
+            <h3 class="inline">Otaku Club</h3>
+        </summary>
+        <img src="./Resources/Images/otaku-club.PNG" alt="otaku club screenshot" class="project-image">
+        <p>An otaku club landing page</p>
+    </details>
+    <details class="project">
+        <summary class="title">
+            <h3>Tea Cozy</h3>
+        </summary>
+        <img src="./Resources/Images/tea-cozy.PNG" alt="tea cozy screenshot" class="project-image">
+        <p>Tea cozy project</p>
+    </details>
+    <details class="project">
+        <summary class="title">
+            <h3>Fontend Mentor</h3>
+        </summary>
+        <img src="./Resources/Images/landing-page.PNG" alt="fronted mentor landing page screenshot" class="project-image">
+        <p>An <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor</a> project</p>
+    </details>
+  </section>
+  <section class="skills" id="skills">
+    <h2>Skills</h2>
+    <i style="font-size:36px" class="fa">&#xf13b;</i>
+    <i style="font-size:36px" class="fa">&#xf13c;</i>
+    <i style="font-size:36px" class="fa">&#xf09b;</i>
+    <i style="font-size:36px" class="fa">&#xf16c;</i>
+    <i class="fa fa-chrome" style="font-size:36px"></i>
+    
+    
+  </section>
+</main>
+<footer class="footer">
+  <p>Made in an unexpectedly <span class="sun">☀</span> Brussels</p>
+</footer>
+<script src="./Resources/app.js"></script>
+</body>
+</html>

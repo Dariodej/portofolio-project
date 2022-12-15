@@ -1,0 +1,138 @@
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+
+body{
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    transition: .182s;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+    padding-left: 1rem;
+}
+
+h2{
+    font-weight: 800;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-item{
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+
+.dark-mode{
+   margin-left: 0.5rem;
+   font-weight: 500;
+   background-color: black;
+   color: white;
+   border-radius: 25px;
+   padding: 0.5rem 1rem;
+   border-color: white;
+}
+
+body.dark{
+    background-color: black;
+    color: white;
+}
+
+body.dark a{
+    color: white;
+}
+
+.light-mode{
+    margin-left: 0.5rem;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+ }
+
+section{
+    display: block;
+}
+
+.about-me-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 1rem;
+}
+
+.about-me-text p{
+    line-height: 1.5rem;
+}
+
+.keyboard{
+    align-self: right;
+    border-radius: 1rem;
+    max-width: 20rem;
+    max-height: auto;
+}
+
+summary {
+    display: flex;
+    align-items: center;
+  }
+  
+summary::-webkit-details-marker { 
+    display: block;
+  }
+
+summary:before {
+    content: "►";
+    padding-right: 0.5rem;
+  }
+
+details[open] summary:before {
+    content: "▼";
+  }  
+
+
+
+.project-image{
+    max-width: 40rem;
+}  
+
+.projects p{
+    font-style: italic;
+    padding-left: 15rem;
+}
+
+i{
+    padding-left: 3rem;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
+}
