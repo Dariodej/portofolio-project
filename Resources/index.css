@@ -46,8 +46,9 @@ a{
 }
 
 .nav-item{
-    padding-left: 0.5rem;
+    padding-left: 2rem;
     font-weight: 600;
+    padding-right: 1rem;
 }
 
 .dark-mode{
@@ -78,6 +79,10 @@ body.dark a{
     padding: 0.5rem 1rem;
  }
 
+
+button:hover{
+    cursor: pointer;
+} 
 section{
     display: block;
 }
@@ -102,7 +107,12 @@ section{
 summary {
     display: flex;
     align-items: center;
+
   }
+
+.pointer:hover{
+    cursor: pointer;
+}  
   
 summary::-webkit-details-marker { 
     display: block;
@@ -132,7 +142,16 @@ i{
     padding-left: 3rem;
 }
 
+.contact{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.email{
+    margin-left: 3rem;
+}
+
 footer{
     margin-top: auto;
     text-align: center;
+    padding-top: 3rem;
 }

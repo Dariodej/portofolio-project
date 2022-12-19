@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Resources/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dario's contact</title>
 </head>
 <body>
-    
+    <header class="header">
+        <nav>
+          <h1>Dario's Portofolio</h1>
+          <ul  class="nav-bar">
+              <li class="nav-item">
+                  <a href="./index.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./index.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                  <a href="./index.html">Skills</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#contact">Contact</a>
+              </li>
+          </ul>
+          <button type="button" class="dark-mode" onclick="enableDarkMode()">Dark Mode</button>
+          <button type="button" class="light-mode" onclick="enableLightMode()">Light Mode</button>
+        </nav>
+    </header>
+    <main class="main-contact">
+        <h2 id="contact">Contact</h2>
+        <p class="contact" >Want to know more about me? Interested in working together? I'd be happy to hear from you!</p>
+        <a href="https://www.facebook.com/dario.dejaneiro.39/" target="_blank"><i style="font-size:36px" class="fa">&#xf082;</i></a>
+        <a href="https://github.com/Dariodej?tab=repositories" target="_blank"><i style="font-size:36px" class="fa">&#xf092;</i></a>
+        <a href="https://www.instagram.com/dariodejaneiro/?hl=fr" target="_blank"><i style="font-size:36px" class="fa">&#xf16d;</i></a>
+        <a href="https://www.linkedin.com/in/dario-dehaspe-163725150/" target="_blank"><i style="font-size:36px" class="fa">&#xf08c;</i></a>
+        <a href="https://www.reddit.com/user/dariodej" target="_blank"><i style="font-size:36px" class="fa">&#xf1a2;</i></a>
+        <a href="mailto:dehaspedario@hotmail.com" class="email" title="Send an email">Send email</a>
+
+    <script src="./Resources/app.js"></script>
+    </main>
+   
+    <footer class="footer">
+        <p>Made in an unexpectedly <span class="sun">☀</span> Brussels</p>
+      </footer>
 </body>
 </html>
