@@ -90,7 +90,7 @@ section{
 .about-me-container{
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-gap: 1rem;
+    grid-gap: 10rem;
 }
 
 .about-me-text p{
@@ -131,6 +131,7 @@ details[open] summary:before {
 
 .project-image{
     max-width: 40rem;
+    border-radius: 5%;
 }  
 
 .projects p{
